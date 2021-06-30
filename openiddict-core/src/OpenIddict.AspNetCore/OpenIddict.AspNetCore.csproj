@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netcoreapp2.1;netcoreapp3.0</TargetFrameworks>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <IncludeSymbols>false</IncludeSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Easy-to-use OpenID Connect stack for ASP.NET Core.</Description>
+    <PackageTags>$(PackageTags);aspnetcore;server;validation</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenIddict\OpenIddict.csproj" />
+    <ProjectReference Include="..\OpenIddict.Server.AspNetCore\OpenIddict.Server.AspNetCore.csproj" />
+    <ProjectReference Include="..\OpenIddict.Server.DataProtection\OpenIddict.Server.DataProtection.csproj" />
+    <ProjectReference Include="..\OpenIddict.Validation.AspNetCore\OpenIddict.Validation.AspNetCore.csproj" />
+    <ProjectReference Include="..\OpenIddict.Validation.DataProtection\OpenIddict.Validation.DataProtection.csproj" />
+  </ItemGroup>
+
+</Project>

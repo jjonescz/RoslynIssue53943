@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <SignAssembly>false</SignAssembly>
+    <PublicSign>false</PublicSign>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>MongoDB stores for OpenIddict.</Description>
+    <PackageTags>$(PackageTags);mongodb</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenIddict.Core\OpenIddict.Core.csproj" />
+    <ProjectReference Include="..\OpenIddict.MongoDb.Models\OpenIddict.MongoDb.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="$(JetBrainsVersion)" PrivateAssets="All" />
+    <PackageReference Include="MongoDB.Driver" Version="$(MongoDbVersion)" />
+  </ItemGroup>
+
+</Project>

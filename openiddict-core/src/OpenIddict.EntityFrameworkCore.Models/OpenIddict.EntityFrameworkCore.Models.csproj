@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Relational entities for the Entity Framework Core stores.</Description>
+    <PackageTags>$(PackageTags);entityframeworkcore;models</PackageTags>
+  </PropertyGroup>
+
+</Project>

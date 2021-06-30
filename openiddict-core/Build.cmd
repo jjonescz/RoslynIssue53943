@@ -1,0 +1,1 @@
+dotnet build /t:Rebuild /warnaserror:AD0001 /p:TreatWarningsAsErrors=false
