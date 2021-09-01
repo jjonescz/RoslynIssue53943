@@ -6,9 +6,9 @@ Reproducer for https://github.com/dotnet/roslyn/issues/53943
 * git checkout eb35cbefb700b3f219439431aa489f555a27a5de 
 * Download nuget package from https://github.com/SonarSource/sonar-dotnet/releases/tag/8.24.0.32949
 * Extract Analyzer DLLs to openiddict-core\Analyzers\
-* Add openiddict-core\.editorconfig to enable only one rule
-* Modify openiddict-core\Directory.Build.props to embed the analyzers
-* Modify openiddict-core\Build.cmd to reproduce the issue
+* Add [openiddict-core\\.editorconfig](/openiddict-core/.editorconfig) to enable only one rule
+* Modify [openiddict-core\Directory.Build.props](/openiddict-core/Directory.Build.props) to embed the analyzers
+* Modify [openiddict-core\Build.cmd](/openiddict-core/Build.cmd) to reproduce the issue
 
 ## Reproduce
 
