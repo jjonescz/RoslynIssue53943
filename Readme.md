@@ -1,6 +1,6 @@
 Reproducer for https://github.com/dotnet/roslyn/issues/53943
 
-## Changes
+## How this reproducer was created
 
 * git clone https://github.com/openiddict/openiddict-core
 * git checkout eb35cbefb700b3f219439431aa489f555a27a5de 
