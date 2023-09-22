@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Certificate.cer" />
-    <EmbeddedResource Include="Certificate.pfx" />
+    <!-- <EmbeddedResource Include="Certificate.pfx" /> -->
   </ItemGroup>
 
   <ItemGroup>
